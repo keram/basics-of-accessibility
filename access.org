@@ -1,17 +1,46 @@
-* Lunch & Learn About Accessibility
+#+TITLE: Lunch & Learn About Accessibility
 
-** Introduction
+* Introduction
+
+* Why Me Leading This Session?
+
+#+attr_html: :width 50%
+[[./assets/duty_calls.png]]
+
+I'm around web accessibility last fifteen years.
+Have also personal experience with conducting usability testing 
+and implementing solution.
+Doing it for my personal benefits and it is one of the reasons I become
+web developer. 
 
 https://youtu.be/hZBVcAgBCrQ
 
 
-** Motivation 
+* Motivation and Goals of This Session
+
+** Mitigate Common Misconceptions
+
+From kickoff:
+
+#+BEGIN_QUOTE
+
+We did the accessibility thing for USBank.
+The accessibility is about blind people and being able make
+booking through screen reader.
+
+#+END_QUOTE
+
+** Motivate you and company as organization
+** Share Best Practice Implementation Patterns
 
 
-** The Good, The Bad and Ugly
 
 
-** How to
+
+* The Good, The Bad and Ugly
+
+
+* How to
 *** Start
 
-** Next Steps Resources
+* Next Steps Resources
