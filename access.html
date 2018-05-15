@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-05-15 Tue 08:41 -->
+<!-- 2018-05-15 Tue 12:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Lunch &amp; Learn About Accessibility</title>
@@ -180,6 +180,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -234,36 +235,24 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org011f172">1. Introduction</a></li>
-<li><a href="#org90bfd03">2. Why Me Leading This Session?</a></li>
-<li><a href="#orgc995926">3. Motivation and Goals of This Session</a>
-<ul>
-<li><a href="#org712c853">3.1. Mitigate some common misconceptions</a></li>
-<li><a href="#org3ad234f">3.2. Motivate you and company as organization invest more to accessibility</a></li>
-<li><a href="#org772a7f9">3.3. Share some best practice implementation patterns</a></li>
-</ul>
-</li>
-<li><a href="#org25776af">4. The Good, The Bad and Ugly</a></li>
-<li><a href="#orgea9f9dd">5. How to</a>
-<ul>
-<li>
-<ul>
-<li><a href="#org214b768">5.0.1. Start</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org9a1354a">6. Next Steps Resources</a></li>
+<li><a href="#orgb861833">1. Introduction</a></li>
+<li><a href="#orgf2b218d">2. Why Me Leading This Session?</a></li>
+<li><a href="#orgcb6a269">3. Motivation and Goals of This Session</a></li>
+<li><a href="#org5b5bc85">4. Common Misconceptions</a></li>
+<li><a href="#orgdc2f3bb">5. Why Should (We / You) Care ?</a></li>
+<li><a href="#org38f4c6e">6. Implementation Patterns or Live Examples</a></li>
+<li><a href="#org34da2f6">7. Conclusion</a></li>
+<li><a href="#org2166e04">8. Next Steps Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org011f172" class="outline-2">
-<h2 id="org011f172"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-orgb861833" class="outline-2">
+<h2 id="orgb861833"><span class="section-number-2">1</span> Introduction</h2>
 </div>
 
-<div id="outline-container-org90bfd03" class="outline-2">
-<h2 id="org90bfd03"><span class="section-number-2">2</span> Why Me Leading This Session?</h2>
+<div id="outline-container-orgf2b218d" class="outline-2">
+<h2 id="orgf2b218d"><span class="section-number-2">2</span> Why Me Leading This Session?</h2>
 <div class="outline-text-2" id="text-2">
 
 <div class="figure">
@@ -271,11 +260,13 @@ for the JavaScript code in this tag.
 </p>
 </div>
 
-<p>
-I'm around web accessibility last fifteen years.
-Have also personal experience with conducting usability testing 
-and implementing solution.
-</p>
+
+<ul class="org-ul">
+<li>being around web accessibility last fifteen years.</li>
+<li>bit of experience with conducting usability/accessibility tests and implemention side as web developer</li>
+<li>more usable/accessible tools and apps better for everyone</li>
+</ul>
+
 
 <p>
 <a href="https://youtu.be/hZBVcAgBCrQ">https://youtu.be/hZBVcAgBCrQ</a>
@@ -284,15 +275,158 @@ and implementing solution.
 </div>
 
 
-<div id="outline-container-orgc995926" class="outline-2">
-<h2 id="orgc995926"><span class="section-number-2">3</span> Motivation and Goals of This Session</h2>
+<div id="outline-container-orgcb6a269" class="outline-2">
+<h2 id="orgcb6a269"><span class="section-number-2">3</span> Motivation and Goals of This Session</h2>
 <div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Mitigate Common Misconceptions</li>
+<li>Motivate You and Company as Organization</li>
+<li>Share Best Practice Implementation Patterns</li>
+</ul>
 </div>
-<div id="outline-container-org712c853" class="outline-3">
-<h3 id="org712c853"><span class="section-number-3">3.1</span> Mitigate some common misconceptions</h3>
-<div class="outline-text-3" id="text-3-1">
+</div>
+
+
+
+<div id="outline-container-org5b5bc85" class="outline-2">
+<h2 id="org5b5bc85"><span class="section-number-2">4</span> Common Misconceptions</h2>
+<div class="outline-text-2" id="text-4">
+<blockquote>
 <p>
-From kickoff:
+
+</p>
+
+<p>
+The accessibility is about blind people and being able to make
+booking through screen reader.
+</p>
+</blockquote>
+
+<p>
+While in reality:
+</p>
+
+<p>
+<b>Accessibility in Web development means enabling as many people as possible to use Web sites,
+ even when those people's abilities are limited in some way.</b>
+</p>
+
+<p>
+Diffent types disabilities and categorization
+Visible and invisible.
+Physical, Cognitive, Sensory&#x2026;
+</p>
+
+
+<p>
+<b>Permanent</b>
+</p>
+
+<p>
+Blind..
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/Geleidehond_testparcours.jpg" alt="Geleidehond_testparcours.jpg" width="50%" />
+</p>
+</div>
+
+
+<p>
+Wheelchair users
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/fashion_girl_woman_model_female_portrait_style_brunette-758023.jpg" alt="fashion_girl_woman_model_female_portrait_style_brunette-758023.jpg" width="50%" />
+</p>
+</div>
+
+<p>
+But also Colorblindness
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/1024px-Ishihara_9.png" alt="1024px-Ishihara_9.png" width="50%" />
+</p>
+</div>
+
+
+<p>
+Dyslexia
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/Comic_Sans_Rules.png" alt="Comic_Sans_Rules.png" width="50%" />
+</p>
+</div>
+
+
+<p>
+etc..
+</p>
+
+<p>
+<b>Temporary</b>
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/Broken_right_hand_in_orange_cast.jpg" alt="Broken_right_hand_in_orange_cast.jpg" width="50%" />
+</p>
+</div>
+
+<p>
+Broken limbs, pregnancy (no offense), ..
+</p>
+
+<p>
+<b>Situational</b>
+</p>
+
+
+
+<div class="figure">
+<p><img src="./assets/MaxPixel.freegreatpicture.com-Human-Festival-Celebrate-Party-16780.jpg" alt="MaxPixel.freegreatpicture.com-Human-Festival-Celebrate-Party-16780.jpg" width="50%" />
+</p>
+</div>
+
+<p>
+Are you sure that your cognitive and motoric capabilities are same
+at 3A.M. morning on Saturday as on Monday 10A.M. at work after cup of coffee?
+</p>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 </p>
 
 <blockquote>
@@ -301,47 +435,388 @@ From kickoff:
 </p>
 
 <p>
-We did the accessibility thing for USBank.
-The accessibility is about blind people and being able make
-booking through screen reader.
+It is expensive and hard to do.
 </p>
 </blockquote>
+
+<p>
+Well, this is true when you take accessibility into consideration only in final phase of project(s) or
+try to retrofit to existing application.
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/airplane-744865_1280.jpg" alt="airplane-744865_1280.jpg" width="50%" />
+</p>
+</div>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
+
+<blockquote>
+<p>
+
+</p>
+
+<p>
+It is a frontend thing.
+</p>
+</blockquote>
+
+<p>
+or
+</p>
+
+<blockquote>
+<p>
+
+</p>
+
+<p>
+To make application valid against some document or checkbox is enough.
+</p>
+</blockquote>
+
+
+<div class="figure">
+<p><img src="./assets/checklist-1316848_1280.png" alt="checklist-1316848_1280.png" width="20%" />
+</p>
+</div>
+
+
+<p>
+<b>How not to do it:</b>
+</p>
+
+<p>
+We want include to our website nice picture.
+</p>
+
+
+<div class="figure">
+<p><img src="./assets/xxx.jpeg" alt="xxx.jpeg" width="50%" />
+</p>
+</div>
+
+<pre class="example">
+
+&lt;img src="xxx.png" /&gt;
+
+</pre>
+
+<p>
+And you heard that to make it accessible we need add "alt" attribute.
+</p>
+
+
+<pre class="example">
+
+&lt;img src="xxx.png" alt="Image" /&gt;
+
+</pre>
+
+
+<p>
+The correct way:
+</p>
+
+
+<pre class="example">
+
+&lt;img src="xxx.png" alt="Woman on the beach excercising yoga" /&gt;
+
+</pre>
+
+<p>
+<b>Add alternative description of the information displayed by the picture.</b>
+</p>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
+
+<blockquote>
+<p>
+
+</p>
+
+<p>
+<b>Accessibility is about the details that you may not notice or ever use but
+are critical to many users.</b>
+</p>
+</blockquote>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
 </div>
 </div>
 
-<div id="outline-container-org3ad234f" class="outline-3">
-<h3 id="org3ad234f"><span class="section-number-3">3.2</span> Motivate you and company as organization invest more to accessibility</h3>
-</div>
-<div id="outline-container-org772a7f9" class="outline-3">
-<h3 id="org772a7f9"><span class="section-number-3">3.3</span> Share some best practice implementation patterns</h3>
-</div>
-</div>
 
 
-
-
-
-<div id="outline-container-org25776af" class="outline-2">
-<h2 id="org25776af"><span class="section-number-2">4</span> The Good, The Bad and Ugly</h2>
-</div>
-
-
-<div id="outline-container-orgea9f9dd" class="outline-2">
-<h2 id="orgea9f9dd"><span class="section-number-2">5</span> How to</h2>
+<div id="outline-container-orgdc2f3bb" class="outline-2">
+<h2 id="orgdc2f3bb"><span class="section-number-2">5</span> Why Should (We / You) Care ?</h2>
 <div class="outline-text-2" id="text-5">
+
+<div class="figure">
+<p><img src="./assets/twitter_bryan.PNG" alt="twitter_bryan.PNG" width="50%" />
+</p>
 </div>
-<div id="outline-container-org214b768" class="outline-4">
-<h4 id="org214b768"><span class="section-number-4">5.0.1</span> Start</h4>
+
+
+<ul class="org-ul">
+<li>Ethical Reasons and because it is rigth thing to do</li>
+</ul>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
+
+<ul class="org-ul">
+<li>Market advantage</li>
+</ul>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
+
+<ul class="org-ul">
+<li>Innovation</li>
+</ul>
+
+
+
+<div class="figure">
+<p><img src="./assets/576px-Harman_Kardon_Invoke_Speaker_-_aerial.jpg" alt="576px-Harman_Kardon_Invoke_Speaker_-_aerial.jpg" width="50%" />
+</p>
+</div>
+
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p>
+
+<ul class="org-ul">
+<li>Law and legal requirements</li>
+</ul>
 </div>
 </div>
 
-<div id="outline-container-org9a1354a" class="outline-2">
-<h2 id="org9a1354a"><span class="section-number-2">6</span> Next Steps Resources</h2>
+<div id="outline-container-org38f4c6e" class="outline-2">
+<h2 id="org38f4c6e"><span class="section-number-2">6</span> Implementation Patterns or Live Examples</h2>
+</div>
+
+<div id="outline-container-org34da2f6" class="outline-2">
+<h2 id="org34da2f6"><span class="section-number-2">7</span> Conclusion</h2>
+<div class="outline-text-2" id="text-7">
+<blockquote>
+<p>
+
+</p>
+
+<p>
+"100% accessibility" is an unobtainable ideal — you will always come across some kind of edge case that results in a certain user finding certain content difficult to use — but you should do as much as you can.
+</p>
+</blockquote>
+<p>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility</a>
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-org2166e04" class="outline-2">
+<h2 id="org2166e04"><span class="section-number-2">8</span> Next Steps Resources</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+Free course on udacity about accessibility
+</p>
+
+<p>
+<a href="https://eu.udacity.com/course/web-accessibility--ud891">https://eu.udacity.com/course/web-accessibility--ud891</a>
+</p>
+
+
+<p>
+Web Content Accessibility Guidelines
+</p>
+
+<p>
+<a href="https://www.w3.org/WAI/intro/wcag">https://www.w3.org/WAI/intro/wcag</a>
+</p>
+
+
+<p>
+Accessible Rich Internet Applications (WAI-ARIA)
+</p>
+
+<p>
+<a href="https://www.w3.org/TR/wai-aria/">https://www.w3.org/TR/wai-aria/</a>
+</p>
+
+
+<p>
+Pa11y is your automated accessibility testing pal. It runs HTML CodeSniffer from the command line for programmatic accessibility reporting.
+</p>
+
+<p>
+<a href="http://pa11y.org/">http://pa11y.org/</a>
+</p>
+
+
+<p>
+GDS Accessibility blog
+</p>
+
+<p>
+<a href="https://accessibility.blog.gov.uk/">https://accessibility.blog.gov.uk/</a>
+</p>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: mla</p>
-<p class="date">Created: 2018-05-15 Tue 08:41</p>
+<p class="date">Created: 2018-05-15 Tue 12:30</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

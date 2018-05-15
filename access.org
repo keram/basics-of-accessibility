@@ -1,3 +1,4 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+TITLE: Lunch & Learn About Accessibility
 
 * Introduction
@@ -7,40 +8,388 @@
 #+attr_html: :width 50%
 [[./assets/duty_calls.png]]
 
-I'm around web accessibility last fifteen years.
-Have also personal experience with conducting usability testing 
-and implementing solution.
-Doing it for my personal benefits and it is one of the reasons I become
-web developer. 
+
+- being around web accessibility last fifteen years.
+- bit of experience with conducting usability/accessibility tests and implemention side as web developer
+- more usable/accessible tools and apps better for everyone
+
 
 https://youtu.be/hZBVcAgBCrQ
 
-
 * Motivation and Goals of This Session
 
-** Mitigate Common Misconceptions
+- Mitigate Common Misconceptions
+- Motivate You and Company as Organization
+- Share Best Practice Implementation Patterns
 
-From kickoff:
+
+* Common Misconceptions
+
 
 #+BEGIN_QUOTE
 
-We did the accessibility thing for USBank.
-The accessibility is about blind people and being able make
+The accessibility is about blind people and being able to make
 booking through screen reader.
 
 #+END_QUOTE
 
-** Motivate you and company as organization
-** Share Best Practice Implementation Patterns
+While in reality:
+
+*Accessibility in Web development means enabling as many people as possible to use Web sites,
+ even when those people's abilities are limited in some way.*
+
+Diffent types disabilities and categorization
+Visible and invisible.
+Physical, Cognitive, Sensory...
 
 
+*Permanent*
+
+Blind..
+
+#+attr_html: :width 50%
+[[./assets/Geleidehond_testparcours.jpg]]
 
 
+Wheelchair users
 
-* The Good, The Bad and Ugly
+#+attr_html: :width 50%
+[[./assets/fashion_girl_woman_model_female_portrait_style_brunette-758023.jpg]]
+
+But also Colorblindness
+
+#+attr_html: :width 50%
+[[./assets/1024px-Ishihara_9.png]]
 
 
-* How to
-*** Start
+Dyslexia
+
+#+attr_html: :width 50%
+[[./assets/Comic_Sans_Rules.png]]
+
+
+etc..
+
+*Temporary*
+
+#+attr_html: :width 50%
+[[./assets/Broken_right_hand_in_orange_cast.jpg]]
+
+Broken limbs, pregnancy (no offense), ..
+
+*Situational*
+
+
+#+attr_html: :width 50%
+[[./assets/MaxPixel.freegreatpicture.com-Human-Festival-Celebrate-Party-16780.jpg]]
+
+Are you sure that your cognitive and motoric capabilities are same
+at 3A.M. morning on Saturday as on Monday 10A.M. at work after cup of coffee?
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+#+BEGIN_QUOTE
+
+It is expensive and hard to do.
+
+#+END_QUOTE
+
+Well, this is true when you take accessibility into consideration only in final phase of project(s) or
+try to retrofit to existing application.
+
+#+attr_html: :width 50%
+[[./assets/airplane-744865_1280.jpg]]
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+#+BEGIN_QUOTE
+
+It is a frontend thing.
+
+#+END_QUOTE
+
+or
+
+#+BEGIN_QUOTE
+
+To make application valid against some document or checkbox is enough.
+
+#+END_QUOTE
+
+#+attr_html: :width 20%
+[[./assets/checklist-1316848_1280.png]]
+
+
+*How not to do it:*
+
+We want include to our website nice picture.
+
+#+attr_html: :width 50%
+[[./assets/xxx.jpeg]]
+
+#+BEGIN_EXAMPLE
+
+<img src="xxx.png" />
+
+#+END_EXAMPLE
+
+And you heard that to make it accessible we need add "alt" attribute.
+
+
+#+BEGIN_EXAMPLE
+
+<img src="xxx.png" alt="Image" />
+
+#+END_EXAMPLE
+
+
+The correct way:
+
+
+#+BEGIN_EXAMPLE
+
+<img src="xxx.png" alt="Woman on the beach excercising yoga" />
+
+#+END_EXAMPLE
+
+*Add alternative description of the information displayed by the picture.*
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+#+BEGIN_QUOTE
+
+*Accessibility is about the details that you may not notice or ever use but
+are critical to many users.*
+
+#+END_QUOTE
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+
+* Why Should (We / You) Care ?
+
+#+attr_html: :width 50%
+[[./assets/twitter_bryan.PNG]]
+
+
+ - Ethical Reasons and because it is rigth thing to do
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+ - Market advantage
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+ - Innovation
+
+
+#+attr_html: :width 50%
+[[./assets/576px-Harman_Kardon_Invoke_Speaker_-_aerial.jpg]]
+
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+ - Law and legal requirements
+
+* Implementation Patterns or Live Examples
+
+* Conclusion
+
+
+#+BEGIN_QUOTE
+
+"100% accessibility" is an unobtainable ideal — you will always come across some kind of edge case that results in a certain user finding certain content difficult to use — but you should do as much as you can.
+
+#+END_QUOTE
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+
 
 * Next Steps Resources
+
+Free course on udacity about accessibility
+
+https://eu.udacity.com/course/web-accessibility--ud891
+
+
+Web Content Accessibility Guidelines
+
+https://www.w3.org/WAI/intro/wcag
+
+
+Accessible Rich Internet Applications (WAI-ARIA)
+
+https://www.w3.org/TR/wai-aria/
+
+
+Pa11y is your automated accessibility testing pal. It runs HTML CodeSniffer from the command line for programmatic accessibility reporting.
+
+http://pa11y.org/
+
+
+GDS Accessibility blog
+
+https://accessibility.blog.gov.uk/
