@@ -104,7 +104,16 @@ It is a frontend thing.
 
 #+END_QUOTE
 
-or
+To make applications accessible is cross team and multiple roles effort.
+From designers, copywritters, backend developers to support, qa testers,
+frontend developers, managers..
+
+\\
+\\
+\\
+\\
+\\
+
 
 #+BEGIN_QUOTE
 
@@ -224,6 +233,12 @@ are critical to many users.*
 \\
 
 * Implementation Patterns or Live Examples
+
+In land where accessibility is responsibility of everyone,
+it also crucial that there is someone primarly responsible.
+
+*One most recurring pattern in companies that successfully implement inclusion and accessibility into
+their products and company culture is that at least one person from higher management is able put his neck into the line.*
 
 \\
 \\
