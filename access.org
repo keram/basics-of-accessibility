@@ -3,24 +3,13 @@
 
 * Introduction
 
-* Why Me Leading This Session?
+* Why Me, Leading This Session?
 
 #+attr_html: :width 50%
 [[./assets/duty_calls.png]]
 
 
-- being around web accessibility last fifteen years.
-- bit of experience with conducting usability/accessibility tests and implemention side as web developer
 - more usable/accessible tools and apps better for everyone
-
-
-https://youtu.be/hZBVcAgBCrQ
-
-* Motivation and Goals of This Session
-
-- Mitigate Common Misconceptions
-- Motivate You and Company as Organization
-- Share Best Practice Implementation Patterns
 
 
 * Common Misconceptions
@@ -29,7 +18,7 @@ https://youtu.be/hZBVcAgBCrQ
 #+BEGIN_QUOTE
 
 The accessibility is about blind people and being able to make
-booking through screen reader.
+booking through a screen reader.
 
 #+END_QUOTE
 
@@ -38,14 +27,14 @@ While in reality:
 *Accessibility in Web development means enabling as many people as possible to use Web sites,
  even when those people's abilities are limited in some way.*
 
-Diffent types disabilities and categorization
+Different types disabilities and categorization
 Visible and invisible.
 Physical, Cognitive, Sensory...
 
 
 *Permanent*
 
-Blind..
+Blind
 
 #+attr_html: :width 50%
 [[./assets/Geleidehond_testparcours.jpg]]
@@ -56,26 +45,26 @@ Wheelchair users
 #+attr_html: :width 50%
 [[./assets/fashion_girl_woman_model_female_portrait_style_brunette-758023.jpg]]
 
-But also Colorblindness
+but also Colorblindness
 
 #+attr_html: :width 50%
 [[./assets/1024px-Ishihara_9.png]]
 
 
-Dyslexia
+or Dyslexia
 
 #+attr_html: :width 50%
 [[./assets/Comic_Sans_Rules.png]]
 
 
-etc..
+and more..
 
 *Temporary*
 
 #+attr_html: :width 50%
 [[./assets/Broken_right_hand_in_orange_cast.jpg]]
 
-Broken limbs, pregnancy (no offense), ..
+Broken limbs, pregnancy (no offence) etc.
 
 *Situational*
 
@@ -84,30 +73,8 @@ Broken limbs, pregnancy (no offense), ..
 [[./assets/MaxPixel.freegreatpicture.com-Human-Festival-Celebrate-Party-16780.jpg]]
 
 Are you sure that your cognitive and motoric capabilities are same
-at 3A.M. morning on Saturday as on Monday 10A.M. at work after cup of coffee?
+at 3 A.M. morning on Saturday as on Monday 10 A.M. at work after a cup of coffee?
 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 \\
 \\
 \\
@@ -120,34 +87,11 @@ It is expensive and hard to do.
 
 #+END_QUOTE
 
-Well, this is true when you take accessibility into consideration only in final phase of project(s) or
-try to retrofit to existing application.
+Well, this is true when you take accessibility into consideration only in the final phase of a project(s) or try to retrofit to an existing application.
 
 #+attr_html: :width 50%
 [[./assets/airplane-744865_1280.jpg]]
 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 \\
 \\
 \\
@@ -172,9 +116,20 @@ To make application valid against some document or checkbox is enough.
 [[./assets/checklist-1316848_1280.png]]
 
 
+Explanation:
+
+Checklists and automated tools are usefull and recommended, but can not replace testing
+and experience of real users.
+
+\\
+\\
+\\
+\\
+\\
+
 *How not to do it:*
 
-We want include to our website nice picture.
+We wish to include on our website nice picture.
 
 #+attr_html: :width 50%
 [[./assets/xxx.jpeg]]
@@ -185,7 +140,7 @@ We want include to our website nice picture.
 
 #+END_EXAMPLE
 
-And you heard that to make it accessible we need add "alt" attribute.
+And you heard that to make it accessible we need to add "alt" attribute.
 
 
 #+BEGIN_EXAMPLE
@@ -204,26 +159,8 @@ The correct way:
 
 #+END_EXAMPLE
 
-*Add alternative description of the information displayed by the picture.*
+*Add an alternative description of the information displayed by the picture.*
 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 \\
 \\
 \\
@@ -243,54 +180,15 @@ are critical to many users.*
 \\
 \\
 \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 
+* Why Should (We / You) Care?
 
-* Why Should (We / You) Care ?
-
-#+attr_html: :width 50%
+#+attr_html: :width 75%
 [[./assets/twitter_bryan.PNG]]
 
 
- - Ethical Reasons and because it is rigth thing to do
+ - *Ethical reasons and because it is the right thing to do*
 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 \\
 \\
 \\
@@ -299,25 +197,6 @@ are critical to many users.*
 
  - Market advantage
 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 \\
 \\
 \\
@@ -335,27 +214,22 @@ are critical to many users.*
 \\
 \\
 \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 
  - Law and legal requirements
 
+\\
+\\
+\\
+\\
+\\
+
 * Implementation Patterns or Live Examples
+
+\\
+\\
+\\
+\\
+\\
 
 * Conclusion
 
@@ -367,10 +241,15 @@ are critical to many users.*
 #+END_QUOTE
 https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
 
+\\
+\\
+\\
+\\
+\\
 
 * Next Steps Resources
 
-Free course on udacity about accessibility
+Free course on Udacity about accessibility
 
 https://eu.udacity.com/course/web-accessibility--ud891
 
@@ -393,3 +272,9 @@ http://pa11y.org/
 GDS Accessibility blog
 
 https://accessibility.blog.gov.uk/
+
+\\
+\\
+\\
+\\
+\\
